@@ -5,7 +5,9 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+     "build": "build --win",
+      "ship": "build --win -p always"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -20,5 +22,8 @@
   "devDependencies": {
     "electron": "^4.0.1",
     "electron-packager": "^13.0.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.0.6"
   }
 }
