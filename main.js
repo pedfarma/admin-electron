@@ -18,7 +18,7 @@ function createWindow () {
   // and load the index.html of the app.
   // mainWindow.loadFile('index.html')
 
-  mainWindow.loadURL('http://admin.sandbox.pedfarma.com.br')
+  mainWindow.loadURL('https://admin-sandbox.pedfarma.com.br')
 
   mainWindow.once('ready-to-show', () => {
     mainWindow.show()

@@ -1,3 +1,6 @@
 node_modules
 electron-builder.yml
 release-builds
+dist
+.idea
+.DS_Store

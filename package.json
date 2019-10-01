@@ -7,7 +7,8 @@
   "scripts": {
     "start": "electron .",
     "build": "build --win",
-    "ship": "build --win -p always"
+    "ship": "build --win -p always",
+    "build-mac": "electron-builder build --mac"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
