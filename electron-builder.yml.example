@@ -1,0 +1,4 @@
+appId: com.pedfarma.electron
+publish:
+  provider: github
+  token: [YOUR GITHUB ACCESS TOKEN]

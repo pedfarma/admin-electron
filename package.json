@@ -6,11 +6,15 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "build --win",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always",
     "ship": "build --win -p always",
     "build-mac": "electron-builder build --mac"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/pedfarma/admin-electron.git"
+  },
   "keywords": [
     "Electron",
     "quick",
