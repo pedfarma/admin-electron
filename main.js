@@ -18,10 +18,8 @@ function createWindow () {
     height: 600,
     minWidth: 480,
     show: false,
-    icon: path.join(__dirname, 'assets/icons/png/icon.icns')
+    icon: path.join(__dirname, 'build/icon.icns')
   });
-
-  console.log(path.join(__dirname, 'assets/icons/png/icon.icns'))
 
   // and load the index.html of the app.
   // mainWindow.loadFile('index.html')
