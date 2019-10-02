@@ -17,7 +17,7 @@ function createWindow () {
     height: 600,
     minWidth: 480,
     show: false,
-    // icon: path.join(__dirname, 'assets/icons/png/512x512.png')
+    icon: path.join(__dirname, 'assets/icons/png/512x512.png')
   });
 
   // and load the index.html of the app.
@@ -30,7 +30,7 @@ function createWindow () {
   });
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
