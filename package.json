@@ -9,7 +9,9 @@
     "build": "electron-builder build --mac --win --publish never",
     "deploy": "electron-builder build --mac --win --publish always",
     "ship": "build --win -p always",
-    "build-mac": "electron-builder build --mac"
+    "build-mac": "electron-builder build --mac",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/icon.icns --prune=true --out=dist/mac",
+    "package-win": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/icon.ico --prune=true --out=dist/win --version-string.CompanyName=PA --version-string.FileDescription=PA --version-string.ProductName=\"PedFarma Admin\""
   },
   "repository": {
     "type": "git",
