@@ -1,6 +1,6 @@
 {
   "name": "electron-quick-start",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "productName": "PedFarma",
   "description": "A minimal Electron application",
   "main": "main.js",
@@ -12,8 +12,8 @@
     "build-mac": "electron-builder build --mac"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/pedfarma/admin-electron.git"
+    "type": "git",
+    "url": "https://github.com/pedfarma/admin-electron.git"
   },
   "keywords": [
     "Electron",
