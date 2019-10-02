@@ -1,6 +1,6 @@
 {
   "name": "admin-electron",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "productName": "PedFarma",
   "description": "An administrator pharmacies dashboard",
   "main": "main.js",
