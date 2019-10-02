@@ -1,6 +1,6 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.3",
+  "name": "admin-electron",
+  "version": "1.0.4",
   "productName": "PedFarma",
   "description": "A minimal Electron application",
   "main": "main.js",
@@ -30,6 +30,7 @@
     "electron-packager": "^13.0.1"
   },
   "dependencies": {
-    "electron-updater": "^4.0.6"
+    "electron-updater": "^4.0.6",
+    "path": "^0.12.7"
   }
 }
